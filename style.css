@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing:border-box;
+    font-family: 'Raleway';
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block; /* vertical padding that inline elements can't let you do. */
+    padding: .5em; /* Creates space between LINKS */
+    color: white;
+    text-decoration: none; 
+    /* This removes the underlines from the nav the HOME ORDER ABOUT  */
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter; /* HOME ORDER ABOUT blend easier into background */
+    border: 1px solid rgba(255, 255, 255, .3); /* Creates border around nav */
+}
+
+.main-nav li{
+    padding: 0 5%; /* Creates space between nav pages */
+                   /* 0-Top&Bottom, 5%-Left&Bottom */
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3); /* Turns hover color to white, and opacity 30% */
+
+}
+
+.main-header{
+background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('images/PizzaBanner.jpeg');
+    background-blend-mode: multiply;
+    background-size:cover;
+    padding-bottom: 30px;
+}
+
+.restaraunt-name{
+text-align: center;
+margin: 0;
+font-size: 4em;
+font-family: "Raleway";
+}
